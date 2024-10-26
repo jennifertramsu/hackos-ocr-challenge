@@ -1,7 +1,7 @@
 from genomic_benchmarks.loc2seq import download_dataset
 from pathlib import Path
 
-PATHS = [Path('data'), Path('models'), Path('results')]
+PATHS = [Path('data'), Path('models'), Path('results'), Path('src')]
 for path in PATHS:
     path.mkdir(exist_ok=True)
 
